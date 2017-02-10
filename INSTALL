@@ -28,7 +28,6 @@ todoyu Requirements
 
 	See also http://www.todoyu.com/community/system-requirements/ for detailed information
 
-
 Instructions to install todoyu
 ==============================
 	1. Download and extract todoyu.
@@ -63,3 +62,9 @@ Instructions to install todoyu
 
 	6. Follow the instructions of the installer.
 	Done - after successful installation the installer will forward you to login to your todoyu installation.
+
+Debian install todoyu
+==============================
+        * run in Debian 8
+	1. aptitude install apache2 php5 git mysql-server
+	2. aptitude install php5-mcrypt php5-gd php5-mysql 
