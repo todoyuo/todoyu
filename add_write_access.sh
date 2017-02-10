@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir files
+mkdir log 
+mkdir cache 
 chown www-data:www-data files
 chown www-data:www-data config
 chown www-data:www-data cache 
